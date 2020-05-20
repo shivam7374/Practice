@@ -209,3 +209,12 @@ mysql> select * from comments;
 
 mysql>
 ```
+
+
+![Screenshot from 2020-05-20 13-58-52](https://user-images.githubusercontent.com/55014891/82451100-29e2f600-9acb-11ea-9b51-98400e51916d.png)
+
+
+![Screenshot from 2020-05-20 13-59-01](https://user-images.githubusercontent.com/55014891/82451111-2c455000-9acb-11ea-8b0f-d339530e644d.png)
+
+
+![Screenshot from 2020-05-20 13-59-06](https://user-images.githubusercontent.com/55014891/82451115-2d767d00-9acb-11ea-85c4-6d303bf0faaa.png)
