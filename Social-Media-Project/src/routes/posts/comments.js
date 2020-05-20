@@ -2,6 +2,7 @@ const { Router } = require('express')
 const {
   createNewComment,findAllCommentsbyPosts
 } = require('../../controllers/comments')
+const path=require('path')
 
 
 const route = Router()
@@ -27,7 +28,7 @@ route.post('/', async (req, res) => {
   res.status(201).send(post)
 })
 route.get('/:id/endpoint', async (req,res)=>{
-  res.sendFile('/media/singla/New Volume/Github Projects/Mock-Message-Site/Social-Media-Project/src/public/components/comment.html')
+  res.sendFile(path.join(__dirname,'../../public/components','comment.html'))
   // /media/singla/New Volume/Github Projects/Mock-Message-Site/Social-Media-Project/src
 })
 

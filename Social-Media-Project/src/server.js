@@ -18,8 +18,8 @@ app.use('/', express.static(__dirname + '/public'))
 // app.use('/api/posts/comments/:id', express.static(__dirname + '/public/components/comment.html'))
 db.sync()
   .then(() => {
-    app.listen(8483, () => {
-      console.log('server started on http://localhost:8483')
+    app.listen(8583, () => {
+      console.log('server started on http://localhost:8583')
     })
   })
   .catch((err) => {
