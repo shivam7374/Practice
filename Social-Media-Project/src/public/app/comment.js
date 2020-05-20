@@ -3,7 +3,7 @@ function loadPostsComments() {
     start=(document.URL.search("comments/")+9)
     end=document.URL.search("/endpoint")
     let id=parseInt(document.URL.slice(start,end))
-    $.get('http://localhost:8483/api/posts/comments/2', (posts) => {
+    $.get('http://localhost:8483/api/posts/comments/'+id, (posts) => {
       console.log("++++++++++++++++++")
       console.log(posts)
       console.log("++++++++++++++++++")// working till here
